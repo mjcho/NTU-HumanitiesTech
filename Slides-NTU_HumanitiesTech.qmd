@@ -1,0 +1,102 @@
+---
+title: "Screenomics 3.0:"
+subtitle: "用AI與數位足跡探討數位時代的心理、人際關係與媒介內容"
+author:
+    - name: "卓牧融 Mu-Jung 'MJ' Cho"
+      affiliation: 'RCHSS, Academia Sinica'
+      email: 'mjcho@as.edu.tw'
+format:
+  revealjs:
+    theme: [default, synthwave84-reveal-1.scss]
+    slide-number: c
+    incremental: true
+    slide-level: 2
+execute:
+  echo: true
+---
+
+```{r}
+#| label: setup
+#| echo: false
+# minimal setup chunk
+```
+
+# Welcome to Synthwave84
+## A Retro-Futuristic Theme for reveal.js
+
+This is a **minimal demo** of the `synthwave84-reveal.scss` theme.  
+Use the `.neon-*` utility classes to emphasize text:
+
+- [neon pink highlight]{.neon-pink}
+- [neon cyan highlight]{.neon-cyan}
+- [neon red highlight]{.neon-red}
+- [neon green highlight]{.neon-green}
+
+
+---
+
+# Code Block Styling
+
+## Advanced Theme for Code-Heavy Talks
+The theme is tuned for code-heavy talks.
+
+```r
+# a tiny R example
+library(dplyr)
+
+iris %>% 
+  group_by(Species) %>% 
+  summarise(
+    across(where(is.numeric), mean, .names = "avg_{.col}")
+  )
+```
+
+Inline code like `summarise()` or `across()` should get the
+synthwave inline chip styling.
+
+---
+
+# Two-Column Layout
+## Using `.columns` Helper
+
+:::: {.columns}
+::: {.column}
+### Left: Narrative
+
+Use the `.columns7030` helper for quick
+side-by-side content. This is handy for:
+
+- Text + figure  
+- Model diagram + equations  
+- Code + output  
+
+You can also sprinkle in  
+<span class="neon-yellow">keyword-like emphasis</span>.
+
+:::
+
+::: {.column}
+
+### Right: Visual
+
+- Drop an image here (e.g., `![](fig.png)`)  
+- Or a small table:  
+
+| x | y |
+|---|---|
+| 1 | A |
+| 2 | B |
+
+:::
+::::
+
+---
+
+# Closing Slide
+
+## Summary
+- Theme: `synthwave84-reveal.scss`  
+- Layout helpers: `.columns6040`, `.neon-*`  
+- Great for **code-centric**, **model-heavy** talks  
+
+Questions? 🎛️🌅
