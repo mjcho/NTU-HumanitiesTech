@@ -302,6 +302,14 @@ $code-inline-border-color: rgba(249, 42, 173, 0.6) !default;
   text-shadow: $sw-shadow-red;
 }
 
+// smaller font size for captions, notes, and citations
+.caption,
+.reveal .notes,
+.citation {
+  font-size: 0.65em;
+  color: $sw-muted;
+}
+
 // Layout helpers for two-column content
 // .columns6040 {
 //   display: flex;

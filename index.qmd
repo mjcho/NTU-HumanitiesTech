@@ -35,7 +35,7 @@ date: last-modified
 ---
 
 ## Why Study Real-World Digital Interactions?
-![](vids//SarahClip40s_Slow.mp4){.r-stretch}
+![](vids/SarahClip40s_Slow.mp4){.r-stretch}
 
 
 ## Characteristics of Real-World Interactions
@@ -56,9 +56,9 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 
 :::: {.columns}
 ::: {.column width="70%"}
-- DTD: "records of activity (trace data) undertaken through an online information system (thus, digital)." (Howison et al., 2011).  
+- DTD: "records of activity (trace data) undertaken through an online information system (thus, digital)." [(Howison et al., 2011).]{.citation}  
 - Screens vs. Platform APIs & data donation:  
-  - Platform-specific vs. **user-specific** (Ohme et al., 2024).  
+  - Platform-specific vs. **user-specific** [(Ohme et al., 2024).]{.citation}
   - Capture a **broader spectrum** of interactions.  
   - **Multimodality**: images, text, interface elements, mixed content.  
   - Flexible **unit of analysis** (screen, session, episode).  
@@ -82,37 +82,39 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 - Privacy, risk, and **data security** considerations.  
 - Linkage to periodic **surveys (health data)**.
 
-Reeves et al. (2020). *Nature*; Reeves et al. (2020). *Human–Computer Interaction*.
 :::
 ::: {.column width="40%"}
 ![](imgs/nature.jpg){width="100%"}
+[Reeves et al. (2020). *Nature*; Reeves et al. (2020). *Human–Computer Interaction*.]{.citation}
+
 :::
 ::::
 
 ---
 
-# Expanding on the Screenome Approach
+## Expanding on the Screenome Approach
 
-## Transition to Screenomics 3.0
+### Transition to Screenomics 3.0
 
-:::: {.columns}
+:::: {.columns width="60%"}
 ::: {.column}
 1. **Screenome 1.0** – Research infrastructure & conventional ML-based measurements.  
 2. **Screenome 2.0** – Deep learning-based content analysis.  
 3. **Screenomics 3.0** – Multimodal encoders and large multimodal models (LMMs).
 
-Cho et al. (in preparation).
+
 :::
-::: {.column}
-[Figure placeholder: 1.0 → 2.0 → 3.0 timeline]
+::: {.column width="40%"}
+![](imgs/scr1p0.png){width="100%"}
+[Cho et al. (in prep.).]{.citation}
 :::
 ::::
 
 ---
 
-# ML-Based Content Analysis & Mixed Methods
+## ML-Based Content Analysis & Mixed Methods
 
-## Media Sequencing and Family Dynamics
+### Media Sequencing and Family Dynamics
 
 :::: {.columns}
 ::: {.column}
@@ -121,40 +123,41 @@ Cho et al. (in preparation).
 - ML-based content analysis combined with **qualitative interviews** and diary methods.  
 - Focus on how digital interactions **sequenced with offline interactions** shape family dynamics.
 
-Cho et al. (2023). *Heliyon*; Sun et al. (2023). *Journal of Social and Personal Relationships*.
 :::
 ::: {.column}
-[Figure placeholder: Sequencing of family-related screen events]
+![](imgs/homeostasis.png){width="100%"} 
+[Cho et al. (2023). *Heliyon*.]{.citation}
+![](imgs/ya.png){width="100%"} 
+[Sun et al. (2023). Journal of Social and Personal Relationships.]{.citation}
 :::
 ::::
 
 ---
 
-# ML-Based Content Analysis & Mixed Methods
+## ML-Based Content Analysis & Mixed Methods
 
-## Mental Health via Screenome
+### Mental Health via Screenome
 
 :::: {.columns}
 ::: {.column}
-Linking **survey measures** with **digital trace data (DTD)**:
+- Linking **survey measures** with **digital trace data (DTD)**:
+  - Depression, State Anxiety, ADHD, Happiness.  
+  - Integrating **self-report scales** with DTD.  
+  - **Real-time, personalized detection** of mental health states.  
+  - Complementing **clinical and survey** indicators.
 
-- Depression (CES-D), State Anxiety (STAI), ADHD (ASRS), Happiness (weekly measures).  
-- Integrating **self-report scales** with passively collected screen data.  
-- Potential for **real-time, personalized detection** of mental health states.  
-- Illustrates how screen-based measures can complement **clinical and survey** indicators.
-
-Cerit et al. (2025). *JMIR Formative Research*.
 :::
 ::: {.column}
-[Figure placeholder: Valence and arousal weekly trends]
+![](imgs/mental_health.png){width="100%"}
+[Cerit et al. (2025). *JMIR Formative Research*.]{.citation}
 :::
 ::::
 
 ---
 
-# Deep Learning-Based Content Analysis
+## Deep Learning-Based Content Analysis
 
-## Visual Emotions, Scene Recognition, Food Detection
+### Visual Emotions, Scene Recognition, Food Detection
 
 :::: {.columns}
 ::: {.column}
@@ -164,15 +167,17 @@ Cerit et al. (2025). *JMIR Formative Research*.
 - Weekly trends: link **visual emotion trajectories** to well-being.
 :::
 ::: {.column}
-[Figure placeholder: Example screen grid for emotions, scenes, and food detection]
+![](imgs/valence.png){width="100%"}
+![](imgs/scene.png){width="100%"}
+
 :::
 ::::
 
 ---
 
-# Multimodal Encoders and LMMs
+## Multimodal Encoders and LMMs
 
-## Adolescents’ Food-Related Content Exposure
+### Adolescents’ Food-Related Content Exposure
 
 :::: {.columns}
 ::: {.column}
@@ -181,18 +186,18 @@ Cerit et al. (2025). *JMIR Formative Research*.
 - Demonstrates how a specific **content category** can be mined from large screen sets.  
 - Shows feasibility of **longitudinal content tracking** at screen level.
 
-Cho et al. (in preparation).  
 :::
 ::: {.column}
-[Figure placeholder: Longitudinal distribution of food-related exposure]
+![](imgs/food_adol.png){width="100%"}
+[Cho et al. (in prep.).]{.citation}
 :::
 ::::
 
 ---
 
-# Multimodal Encoders and LMMs
+## Multimodal Encoders and LMMs
 
-## Spatial + Behavioral Clusters with CLIP & OCR
+### Spatial + Behavioral Clusters with CLIP & OCR
 
 :::: {.columns}
 ::: {.column}
@@ -201,37 +206,36 @@ Cho et al. (in preparation).
 - **26 distinct clusters**; ~19% non-noise.  
 - Within-app **CLIP variance > between-app variance** → rich within-app heterogeneity.
 
-Cho et al. (in preparation).  
 :::
 ::: {.column}
-[Figure placeholder: UMAP clusters of adolescent screens]
+![](imgs/screenotype.png){width="100%"}
+[Cho et al. (in prep.).]{.citation}
 :::
 ::::
 
 ---
 
-# Multimodal Encoders and LMMs
+## Multimodal Encoders and LMMs {background-image="imgs/atlas.png" background-opacity="0.2"}
 
-## Mapping Digital Screen Content
+### Mapping Digital Screen Content 
 
 :::: {.columns}
 ::: {.column}
 - **Media Content Atlas** for open-ended exploration of digital media interactions.  
 - Content mapping with **HDBSCAN + UMAP** on **1.12M** data points from **112 participants**.  
 - Supports hypothesis generation about **media repertoires** and **use patterns**.
-
-Cerit et al. (2025). Extended Abstract, CHI.  
 :::
 ::: {.column}
-[Figure placeholder: Media Content Atlas map]
+![](imgs/atlas.png){width="100%"}
+[Cerit et al. (2025). CHI EA.]{.citation}
 :::
 ::::
 
 ---
 
-# Multimodal Encoders and LMMs
+## Multimodal Encoders and LMMs {background-image="imgs/atlas_infra.png" background-opacity="0.1"}
 
-## Mapping Digital Screen Content (Multimodal)
+### Mapping Digital Screen Content 
 
 :::: {.columns}
 ::: {.column}
@@ -239,20 +243,20 @@ Cerit et al. (2025). Extended Abstract, CHI.
   - Large multimodal model (LMM) descriptions.  
 - **Topic label generation** for clusters of screens.  
 - **Information retrieval**: querying screens and descriptions for:  
-  - content categories,  
-  - usage contexts,  
-  - user states.
+  - Content categories.
+  - usage contexts, etc.
 :::
 ::: {.column}
-[Figure placeholder: Retrieval interface and topic labels]
+![](imgs/atlas_infra.png){width="100%"}
+[Cerit et al. (2025). CHI EA.]{.citation}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Overall Pipeline
+### Overall Pipeline
 
 :::: {.columns}
 ::: {.column}
@@ -260,57 +264,59 @@ Cerit et al. (2025). Extended Abstract, CHI.
 - **Image Encoder** (CLIP, EVA-CLIP, e5-V) → **image embeddings**.  
 - **OCR Engine** (e.g., CRAFT + STR) → text from screens.  
 - **Text Encoder** (MiniLM, distilRoBERTa) → **document embeddings**.  
-- **Task-specific labels** with LMM + PEFT (LLaVA 1.6 / Gemma 3 + LoRA).  
+- **Task-specific labels** with LMM + PEFT (Gemma 3 + LoRA).  
 - Users provide **human labels**; high-power LMMs supply **synthetic labels**.
 
-Cho et al. (in preparation).  
 :::
 ::: {.column}
-[Figure placeholder: Screenomics 3.0 architecture diagram]
+![](imgs/scr3_arch.png){width="100%"}
+[Cho et al. (in prep.).]{.citation}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Image Encoder: CLIP
+### Image Encoder: CLIP
 
 :::: {.columns}
 ::: {.column}
-- CLIP (Contrastive Language–Image Pre-training) (Radford et al., 2021).  
+- CLIP (Contrastive Language–Image Pre-training).  
 - Jointly learns **image–text representations**.  
 - Surpasses many fully supervised baselines on zero-shot tasks.  
 - Core to many **state-of-the-art multimodal architectures**.
 :::
 ::: {.column}
-[Figure placeholder: CLIP text–image retrieval example]
+![](imgs/clip.png){width="100%"}
+[Radford et al. (2021).]{.citation}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Image Encoder: EVA-CLIP
+### Image Encoder: EVA-CLIP
 
 :::: {.columns}
 ::: {.column}
-- EVA (Explore the limits of Visual representation at scAle) (Fang et al., 2023).  
+- EVA (Explore the limits of Visual representation at scAle).  
   - Pretrains **ViTs** using masked image modeling (MIM).  
   - Helps ViTs learn fine-grained image structure before contrastive learning.  
 - EVA-02-CLIP: outperforms similar-sized models on many tasks, including **image retrieval**.
 :::
 ::: {.column}
-[Figure placeholder: EVA-CLIP performance vs. baselines]
+![](imgs/eva_clip.png){width="100%"}
+[Fang et al. (2023).]{.citation}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Text-to-Image Retrieval with CLIP
+### Text-to-Image Retrieval with CLIP
 
 :::: {.columns}
 ::: {.column}
@@ -320,15 +326,15 @@ Cho et al. (in preparation).
 - Enables exploratory analyses of **usage contexts** and **media patterns**.
 :::
 ::: {.column}
-[Figure placeholder: Query and retrieved screen examples]
+![](imgs/clip_bev.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Human Labels with Label Studio
+### Human Labels with Label Studio
 
 :::: {.columns}
 ::: {.column}
@@ -339,19 +345,19 @@ Cho et al. (in preparation).
   - quality control and adjudication.
 :::
 ::: {.column}
-[Figure placeholder: Label Studio interface screenshot]
+![](imgs/human_label.png){width="100%"}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## Task-Specific Labels with Large Multimodal Models
+### Task-Specific Labels with Large Multimodal Models
 
 :::: {.columns}
 ::: {.column}
-- **LLaVA** (Large Language and Vision Assistant): open-source LMM (Liu et al., 2023).  
+- **LLaVA** (Large Language and Vision Assistant): open-source LMM.  
 - Use cases in this project:  
   - **VQA** over smartphone screens,  
   - **PEFT** for task-specific labeling,  
@@ -362,19 +368,20 @@ Cho et al. (in preparation).
   - Llama 3.2-V (11B, 8-bit, split across GPUs).
 :::
 ::: {.column}
-[Figure placeholder: LMM examples on screen data]
+![](imgs/task_specific_label.png){width="100%"}
+[Liu et al. (2023).]{.citation}
 :::
 ::::
 
 ---
 
-# Screenomics 3.0 Architecture
+## Screenomics 3.0 Architecture
 
-## PEFT with LoRA
+### PEFT with LoRA
 
 :::: {.columns}
 ::: {.column}
-- LoRA (Low-Rank Adaptation of Large Language Models) (Hu et al., 2021).  
+- LoRA (Low-Rank Adaptation of Large Language Models).  
   - Replace full-rank weight matrix **W (d × d)** with low-rank **A (d × r)** and **B (r × d)**.  
   - Freeze **W**, train only **B · A**.  
 - Makes large-model fine-tuning **feasible** on modest hardware.  
@@ -384,37 +391,37 @@ Cho et al. (in preparation).
   - Accuracy ≈ .96, macro F1 ≈ .93, Kappa ≈ .85.
 :::
 ::: {.column}
-[Figure placeholder: LoRA adaptation diagram]
+![](imgs/lora.png){width="100%"}
+[Hu et al. (2021).]{.citation}
 :::
 ::::
 
 ---
 
-# Multimodal Encoders and LMMs
+## Multimodal Encoders and LMMs
 
-## High-Level Behavioral Constructs
+### High-Level Behavioral Constructs
 
 :::: {.columns}
 ::: {.column}
-LMM-based **user activity** and **intention measurement**:
+- LMM-based **user activity** and **intention measurement**:
+  - Combine **commercial solutions** with prompt engineering.  
+  - Measure high-level behavioral constructs (e.g., consuming media, functional activities).  
+  - In one application, Krippendorff’s Alpha = 0.877, precision = 0.92, recall = 0.91.  
+  - Context-based inference: identifying **user intention** behind each screen.
 
-- Combine **commercial solutions** with prompt engineering.  
-- Measure high-level behavioral constructs (e.g., consuming media, functional activities).  
-- In one application, Krippendorff’s Alpha = 0.877, precision = 0.92, recall = 0.91.  
-- Context-based inference: identifying **user intention** behind each screen.
-
-Chang et al. (under review).  
 :::
 ::: {.column}
-[Figure placeholder: High-level behavioral labels over time]
+![](imgs/intent.png){width="100%"}
+[Chang et al. (under review).]{.citation}
 :::
 ::::
 
 ---
 
-# Pitfalls and Future Directions
+## Pitfalls and Future Directions
 
-## Challenges, Limitations, & Future Possibilities
+### Challenges, Limitations, & Future Possibilities
 
 - Over-reliance on models can lead to **subtle biases** or overconfidence in results.  
 - Need for **interpretability tools** to better understand model decisions.  
@@ -426,6 +433,22 @@ Chang et al. (under review).
 
 ---
 
+# Some related ideas...
+
+## {background-video="vids/jh.mp4" background-size="100%"}
+
+## The Language of Biology 
+<!-- ![](vids/jh.mp4){.r-stretch} -->
+- Three areas that define digital biology:  
+  - Scientific data integration, 
+  - Multi-scale modeling and 
+  - Networked science [(Morris et al., 2025, Trend in Biotechnology)]{.citation}.
+- 
+
+
+---
+
+
 # From Digital Trace Data to Communication Styles
 
 ## A Framework for Analyzing and Linking Multimodal Social Media Content
@@ -434,19 +457,20 @@ Chang et al. (under review).
 ::: {.column}
 - MJ Cho, Chingching Chang, Yuan Hsiao, Hen-Hsen Huang  
 - RCHSS, Academia Sinica  
-- @ Institute of Ethnology, Academia Sinica · 2025.10.31
 :::
 ::: {.column}
-[Figure placeholder: Title visual for communication styles framework]
+![](imgs/as_scene.png){width="100%"}
 :::
 ::::
 
 ---
 
-# The Challenge: A New Era for Media Effects Research
+## The Challenge: A New Era for Media Effects Research
 
-## Why We Need New Approaches
+### Why We Need New Approaches
 
+:::: {.columns}
+::: {.column}
 - The field is shifting from **quantity of media use** to **content and its effects** (Pouwels et al., 2024).  
 - **Nature Research Intelligence**: Multimodal communication as a frontier.  
 - Traditional methods are insufficient for **personalized** and **fragmented** media environments (Ohme et al., 2024; Otto et al., 2024).  
@@ -454,12 +478,24 @@ Chang et al. (under review).
   - Dominant form of social media content.  
   - Multimodal and challenging to study (Kroon et al., 2024).  
   - Audio channel remains an **under-studied dimension** of communication.
+:::
+::: {.column}
+![](imgs/media_effects.png){width="100%"}
+:::
+::::
+
 
 ---
 
-# Multimodality and Media Psychology
+## Multimodality and Media Psychology
 
-## Why Multimodal Thinking Matters
+![](vids/lake.mp4){.r-stretch}
+
+---
+
+## Multimodality and Media Psychology
+
+### Why Multimodal Thinking Matters
 
 - Online media and platform–operator (PO) data are inherently **multimodal**.  
 - **Format / schema** shape psychological effects.  
