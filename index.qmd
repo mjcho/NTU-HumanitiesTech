@@ -439,11 +439,24 @@ All of these challenge [conventional social and behavioral research methods]{.ne
 
 ## The Language of Biology 
 <!-- ![](vids/jh.mp4){.r-stretch} -->
-- Three areas that define digital biology:  
-  - Scientific data integration, 
-  - Multi-scale modeling and 
-  - Networked science [(Morris et al., 2025, Trend in Biotechnology)]{.citation}.
-- 
+
+### Digital Biology = Biology Becomes Computable
+- Integration of heterogeneous biological data (genes → cells → organs → behavior)
+- Multi-scale modeling that links molecular processes to whole-organism function
+- Networked, collaborative science powered by AI and high-performance computing
+- Simulation + experimentation loop accelerates biological discovery
+- Biology shifts from descriptive to predictive and engineering-compatible
+
+---
+
+## The Language of Biology 
+
+### AI as the Engine of Digital Biology
+- Foundation models enable pattern discovery in massive biological datasets
+- Generative models simulate biological systems and guide interventions
+- AI accelerates modeling from molecules → cells → circuits → behavior
+- Computational frameworks unify biological processes across scales
+- AI turns biology into something legible, learnable, and designable
 
 ---
 
@@ -733,6 +746,32 @@ Example cluster types:
 - Opens new research avenues:  
   - Move beyond **what is said** to quantify **how it is said**.  
   - Paves the way for new theories of **multimodal political communication** and media effects.
+
+---
+
+## Why All These Matters?
+
+### A tale of scientific evolution
+
+- When Biology Becomes Computable, Mind Becomes Modelable
+  - Cognition emerges from biological information processing
+  - Multi-scale biological models create mechanistic foundations for psychological theory
+  - Integrated biological + digital-trace data enables predictive models of behavior
+  - Synthetic agents & personas become valid testbeds for psychological mechanisms
+  - Psychology shifts from correlational to mechanistic and intervention-driven
+
+---
+
+## Why All These Matters?
+
+### A tale of scientific evolution
+
+- A New Phase for Social Science
+  - Behavior becomes measurable across biological, cognitive, and digital layers
+  - Emotion/thought contagion, media effects, social connectedness become model-ready
+  - Computational social science gains grounding in biological and cognitive models
+  - Interventions can be designed across biological, psychological, and social scales
+  - Social science enters its own “digital biology moment” — a designable science of behavior
 
 ---
 
